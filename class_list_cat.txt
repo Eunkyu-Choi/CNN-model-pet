@@ -1,0 +1,15 @@
+Abyssinian
+American_Shorthair
+Bengal
+British_Shorthair
+Exotic_Shorthair
+Korean_Shorthair_Cat
+Norwegian_Forest_Cat
+Persian
+Ragdoll
+Russian_Blue
+Scottish_Fold
+Scottish_Straight
+Siamese
+Sphynx
+Turkish_Angora
