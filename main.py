@@ -8,18 +8,6 @@ if __name__ == '__main__':
     # '''Path of Image to Sorting'''
     # All Image of Users Phones
     start = time.time()
-    if os.path.isdir('/home/localley/Desktop/result/cat_person/'): 
-        os.rmdir('/home/localley/Desktop/result/cat_person/')
-        os.rmdir('/home/localley/Desktop/result/dog_person/')
-        os.rmdir('/home/localley/Desktop/result/dog/')
-        os.rmdir('/home/localley/Desktop/result/cat/')
-        os.rmdir('/home/localley/Desktop/result/etc/')
-    
-    os.mkdir('/home/localley/Desktop/result/cat_person/')
-    os.mkdir('/home/localley/Desktop/result/dog_person/')
-    os.mkdir('/home/localley/Desktop/result/dog/')
-    os.mkdir('/home/localley/Desktop/result/cat/')
-    os.mkdir('/home/localley/Desktop/result/etc/')
 
     id = ImageDetector()
     path = glob(input('Path of Image to Classification :') + '/*.jpg')
